@@ -1,1 +1,4 @@
 .ipynb_checkpoints
+/Q-tables/*test*
+.DS_Store
+*.mov

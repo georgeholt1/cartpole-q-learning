@@ -9,7 +9,7 @@ The following sequence of commands sets up the environment.
 ```
 conda create --name q-learning-cart-pole python=3.9
 conda activate q-learning-cart-pole
-conda install -c conda-forge jupyter numpy matplotlib tqdm
+conda install -c conda-forge jupyter numpy matplotlib pandas tqdm
 python -m pip install pygame
 python -m pip install gym
 ```
