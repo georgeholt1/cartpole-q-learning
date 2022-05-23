@@ -12,4 +12,5 @@ conda activate q-learning-cart-pole
 conda install -c conda-forge jupyter numpy matplotlib pandas tqdm
 python -m pip install pygame
 python -m pip install gym
+python -m pip install ray
 ```
