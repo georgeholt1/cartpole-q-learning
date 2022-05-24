@@ -18,7 +18,9 @@ If running on Apple Silicon, use Miniforge and the following commands instead.
 ```
 conda create --name q-learning-cart-pole python=3.9
 conda activate q-learning-cart-pole
-pip uninstall grpcio; conda install grpcio
+python -m pip uninstall grpcio
+conda install grpcio=1.43.0
 conda install jupyter numpy matplotlib pandas tqdm
-python -m pip install pygame gym ray
+python -m pip install pygame gym
+python -m pip install "ray[tune]"
 ```
