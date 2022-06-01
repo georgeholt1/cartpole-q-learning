@@ -13,7 +13,7 @@ class QAgent:
     n_bins_pos, n_bins_vel, n_bins_ang, n_bins_ang_vel : int, optional
         Number of bin edges in the state space variables position, velocity,
         angle and angular velocity.
-        Defaults to 5.
+        Defaults to 3, 2, 5, 8.
     lr_init, eps_init : float, optional
         Initial value of learning rate and epsilon.
         Defaults to 1.0.
@@ -22,12 +22,12 @@ class QAgent:
         Defaults to 0.05.
     lr_decay, eps_decay : float, optional
         Decay factor of learning rate and epsilon.
-        `lr_decay` deafults to 10, and `eps_decay` to 20.
+        `lr_decay` deafults to 41, and `eps_decay` to 26.
     discount_factor : float, optional
-        Defaults to 0.9.
+        Defaults to 0.96.
     n_episodes : int, optional
         Number of episodes for training.
-        Defaults to 500.
+        Defaults to 2000.
     progress_bars : bool, optional
         Whether to show tqdm progress bar per episode.
         Defaults to True.

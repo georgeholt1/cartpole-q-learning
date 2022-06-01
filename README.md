@@ -1,5 +1,12 @@
 # Cart-Pole Q-Learning
-A space for experimenting with using the Q-learning algorithm with the cart-pole environment.
+A space for experimenting with applying the Q-learning algorithm to the
+cart-pole environment.
+
+The Q-learning agent and associated methods are located in `src/QAgent.py`. The
+`cart-pole.ipynb` notebook walks through usage of the `QAgent` class, performs a
+hyperparameter search, and shows the behaviour of an agent enacting a policy
+that gives good performance (it 'solves' the problem, i.e. it consistently
+reaches 500 time steps).
 
 ## Requirements
 Tested with Python 3.9.12.
