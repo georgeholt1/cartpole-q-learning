@@ -2,3 +2,4 @@
 /Q-tables/*test*
 .DS_Store
 *.mov
+__pycache__/
